@@ -1,0 +1,173 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  background-color: #333B6A;
+  background-size: cover;
+  background-position: right;
+  font-size: large;
+  background-attachment: fixed;
+  margin: 30px;
+  font-family: system-ui;
+  color: #B7FEAE;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.image-container{
+  margin: 5px;
+  width: 100px
+}
+
+.logo-img {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 100px;
+  height: auto;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* img{
+  height: auto;
+  width: 100px;
+} */
+
+.logo-img:hover {
+  transform: rotate(360deg);
+}
+.animated-div {
+  width: 100px;
+  height: 50px;
+  background-color: #4CAF50;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.animated-div:hover {
+  width: 150px;
+  height: 75px;
+  /* background-color: #45a049; */
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+.list-item {
+  width :950px ;
+  height: 210px;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  /* Add any styles for individual list items */
+  margin-top: 40px;
+  /* margin-bottom: 10px; */
+  overflow-y: hidden; /* Prevent expanding upwards */
+  /* transition-property: height; */
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+}
+
+li{
+  width:1000px ;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items:self-start;
+  /* Add any styles for individual list items */
+  border: 4px solid #B7FEAE; /* Border color for the list items */
+  padding: 20px; /* Optional: Add padding for spacing inside the box */
+  margin-bottom: 10px;
+  overflow-y: hidden; /* Prevent expanding upwards */
+  /* transition-property: height; */
+  transition: all 0.5s ease-in-out;
+}
+
+li span{
+  align-self: self-start;
+  flex-grow: 1;
+  font-size: large;
+}
+
+li .head{
+  transition: all 0.5s ease-in-out;
+  align-self: self-start;
+  flex-grow: 1;
+}
+
+.list-item span{
+  /* align-selsf: self-start; */
+  flex-grow: 1;
+}
+li:hover{
+  width:1000px;
+  height:240px;
+}
+li:hover .head{
+  font-size:10mm;
+} 
+
+.list-item img {
+  max-width: 250px; /* Adjust as needed */
+  height: auto;
+  align-self:self-end;
+  margin-right: 10px; /* Adjust as needed */
+  margin-left: 40px;
+  /* position: relative;
+  left: -100px; Adjust as needed */
+  transition: all 0.5s ease-out;
+}
+
+li:hover .list-item {
+  opacity: 1;
+  width: 99%; /* Adjust as needed for a smooth transition */
+}

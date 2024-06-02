@@ -1,0 +1,5 @@
+<div className="flex justify-between">&nbsp;&nbsp;<Card title="Peaceful Piano" description="Relax and indulge with beautiful piano pieces" image="https://img.freepik.com/free-photo/elegant-grand-piano-indoors-scene-generative-ai_188544-7785.jpg"/>
+            <Card title="Peaceful Piano" description="Relax and indulge with beautiful piano pieces" image="https://collectyourticket.com/uploads/0000/1/2023/03/28/img-world-activity-03.jpg"/>
+            <Card title="Peaceful Piano" description="Relax and indulge with beautiful piano pieces" image="https://www.timeoutdubai.com/cloud/timeoutdubai/2021/09/11/udHvbKwV-IMG-Dubai-UAE-1.jpg"/>
+            <Card title="Peaceful Piano" description="Relax and indulge with beautiful piano pieces" image="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/ba/29/5c/img-worlds-of-adventure.jpg?w=1200&h=-1&s=1"/>
+            <Card title="Peaceful Piano" description="Relax and indulge with beautiful piano pieces" image="https://www.timeoutdubai.com/cloud/timeoutdubai/2021/09/11/hfpqyV7B-IMG-Dubai-UAE.jpg"/></div>
